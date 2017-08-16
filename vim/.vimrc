@@ -27,14 +27,8 @@ set backspace=indent,eol,start
 " Plugin Manager
 call plug#begin('~/.vim/plugged')
 
-" Goyo vim for undistracted writing
-Plug 'junegunn/goyo.vim'
-
 " Insert mode autocomplete for brackets, quotes, braces etc
 Plug 'Raimondi/delimitMate'
-
-" Jedi for the masters of the univers
-Plug 'davidhalter/jedi-vim'
 
 " vim tmux navigator
 Plug 'christoomey/vim-tmux-navigator'
@@ -46,6 +40,9 @@ Plug 'vim-airline/vim-airline-themes'
 " tmuxline for vim
 Plug 'edkolev/tmuxline.vim'
 
+" gruvbox - Retro groove color scheme for Vim
+Plug 'morhetz/gruvbox'
+
 " Add plugins to &runtimepath
 call plug#end()
 
@@ -53,9 +50,12 @@ call plug#end()
 let base16colorspace=256  " Access colors present in 256 colorspace
 set t_Co=256 " 256 color mode
 set background=dark
-colorscheme base16-monokai
+colorscheme gruvbox
 
 " Airline
 let g:airline_powerline_fonts = 1
 set laststatus=2
-let g:airline_theme='base16'
+let g:airline_theme='gruvbox'
+
+" Enable truecolors to vim. Only works for vim 8+
+set termguicolors
