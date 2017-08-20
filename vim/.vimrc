@@ -3,6 +3,7 @@ filetype off
 syntax on
 
 set number	
+set relativenumber
 set linebreak	
 set textwidth=100	
 set showmatch	
@@ -42,6 +43,12 @@ Plug 'edkolev/tmuxline.vim'
 
 " gruvbox - Retro groove color scheme for Vim
 Plug 'morhetz/gruvbox'
+
+" Handle vim sessions appropriately
+Plug 'tpope/vim-obsession'
+
+" Fzf - Search in a flash
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Add plugins to &runtimepath
 call plug#end()

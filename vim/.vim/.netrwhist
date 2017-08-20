@@ -1,10 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/anubhav/projects/poc/rmotr/.cache'
-let g:netrw_dirhist_2='/home/anubhav/projects/poc/rmotr'
-let g:netrw_dirhist_3='/home/anubhav/projects/poc/rmotr/.cache'
-let g:netrw_dirhist_4='/home/anubhav/.Xresources.d'
-let g:netrw_dirhist_5='/home/anubhav/.vim/colors'
-let g:netrw_dirhist_6='/home/anubhav/.dir_colors'
-let g:netrw_dirhist_7='/home/anubhav/projects/blog/ricing'
-let g:netrw_dirhist_8='/Users/neo1691/projects/config'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/neo1691/projects/fc/humdrum'
+let g:netrw_dirhist_2='/Users/neo1691/projects/fc/humdrum/humdrum'
+let g:netrw_dirhist_3='/Users/neo1691/projects/config'
+let g:netrw_dirhist_4='/Users/neo1691/.tmux'
+let g:netrw_dirhist_5='/Users/neo1691/projects/fc/aquifer/aquifer'
+let g:netrw_dirhist_6='/Users/neo1691/projects/fc/aquifer/aquifer/jobs'
