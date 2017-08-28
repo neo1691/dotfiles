@@ -1,8 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/neo1691/projects/fc/humdrum'
-let g:netrw_dirhist_2='/Users/neo1691/projects/fc/humdrum/humdrum'
-let g:netrw_dirhist_3='/Users/neo1691/projects/config'
-let g:netrw_dirhist_4='/Users/neo1691/.tmux'
-let g:netrw_dirhist_5='/Users/neo1691/projects/fc/aquifer/aquifer'
-let g:netrw_dirhist_6='/Users/neo1691/projects/fc/aquifer/aquifer/jobs'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/neo1691/.tmux'
+let g:netrw_dirhist_2='/Users/neo1691/.vim'
+let g:netrw_dirhist_3='/Users/neo1691/.tmux'
+let g:netrw_dirhist_4='/Users/neo1691/projects/fc/aquifer/aquifer/modules/mods_email_to_info'
+let g:netrw_dirhist_5='/Users/neo1691/projects/fc/aquifer/aquifer/modelsdescription/emailverifyprocess'
