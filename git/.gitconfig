@@ -1,0 +1,20 @@
+[user]
+	name = Anubhav Yadav
+	email = anubhav1691@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/projects/config/git/.gitignore
+	autoclrf = input
+[color]
+	ui = true
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	mylog = log --pretty=format: '%h %s [%an]' --graph
+	s = status -s
+[pull]
+	rebase = true
