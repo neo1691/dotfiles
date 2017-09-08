@@ -3,9 +3,9 @@ filetype off
 syntax on
 
 set number	
+set linebreak
 set relativenumber
-set linebreak	
-set textwidth=100	
+" set textwidth=100	
 set showmatch	
 set visualbell	
  
