@@ -1,5 +1,7 @@
+# First source .profile to load api tokens
+source "$HOME/.profile"
 # Source my awesome list of aliases
-source /Users/neo1691/projects/config/env.sh
+source "$HOME/projects/config/env.sh"
 
 # Bash completion from `brew`
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
