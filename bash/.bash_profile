@@ -22,3 +22,7 @@ if [ -n "$VIRTUAL_ENV" ]; then
     source $VIRTUAL_ENV/bin/activate;
     source $HOME/.virtualenvs/postactivate;
 fi
+
+# editing and reloading bash profile
+alias ebash='vim ~/.bash_profile'
+alias rbash='. ~/.bash_profile'
