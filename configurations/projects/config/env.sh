@@ -15,11 +15,6 @@ fi
 # `brew` install fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# Bash prompt with git features
-if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
-    source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
-fi
 # Fix the python path as python is installed by brew
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
@@ -28,6 +23,15 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 # Get the goodies from gnu coreutils
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# Switching back to git-prompt
+GIT_PROMPT_FETCH_REMOTE_STATUS=0 # Avoid fetching remote status
+GIT_PROMPT_SHOW_UPSTREAM=0 # Don't display upstream tracking branch
+GIT_SHOW_UNTRACKED_FILES=no # Don't count untracked files (no, normal, all)
+if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+    __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
+    source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
+fi
 
 # My handy alias
 alias vim='mvim -v'
@@ -38,6 +42,7 @@ alias tvnamer='tvnamer -c $HOME/projects/config/tvnamer.json'
 alias subliminal="subliminal download -l en"
 alias ls='gls --color=auto'
 alias ll='ls -lhA'
+alias venv='vim ~/projects/config/env.sh'
 
 # source the mighty virtualenvwrapper
 export WORKON_HOME="$HOME/.virtualenvs"
@@ -48,6 +53,3 @@ if [ -n "$VIRTYAL_ENV" ]; then
     source $VIRTUAL_ENV/bin/activiate;
     source $HOME/.virtualenv/postactivate;
 fi
-
-# Get dircolors
-eval `dircolors ~/.dircolors/dircolors.ansi-dark`
