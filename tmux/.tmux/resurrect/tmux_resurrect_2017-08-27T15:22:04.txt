@@ -1,0 +1,6 @@
+pane	dev	1	:Vim	0	:-	1	:/Users/neo1691	1	Vim	:/usr/local/Cellar/macvim/8.0-136/MacVim.app/Contents/bin/../MacOS/Vim -g -v .vimrc
+pane	dev	2	:Vim	1	:*	1	:	0	top	:top
+pane	dev	2	:Vim	1	:*	2	:/Users/neo1691	1	Vim	:/usr/local/Cellar/macvim/8.0-136/MacVim.app/Contents/bin/../MacOS/Vim -g -v .tmux.conf
+window	dev	1	0	:-	af7d,167x40,0,0,0
+window	dev	2	1	:*	2097,167x40,0,0{83x40,0,0,1,83x40,84,0,2}
+state	dev	

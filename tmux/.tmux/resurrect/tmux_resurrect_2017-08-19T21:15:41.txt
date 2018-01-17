@@ -1,0 +1,8 @@
+pane	0	1	:bash	1	:*	1	:/Users/neo1691	1	bash	:
+pane	3	1	:Vim	0	:-	1	:/Users/neo1691	1	Vim	:/usr/local/Cellar/macvim/8.0-136/MacVim.app/Contents/bin/../MacOS/Vim -g -v .vimrc_bkp
+pane	3	2	:bash	1	:*	1	:	0	top	:top
+pane	3	2	:bash	1	:*	2	:/Users/neo1691	1	bash	:
+window	0	1	1	:*	b3bd,158x41,0,0,0
+window	3	1	0	:-	b3c2,158x41,0,0,5
+window	3	2	1	:*	dd41,158x41,0,0{79x41,0,0,6,78x41,80,0,7}
+state	3	

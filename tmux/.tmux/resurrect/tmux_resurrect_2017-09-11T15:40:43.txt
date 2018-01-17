@@ -1,0 +1,8 @@
+pane	dev	1	:trello	0	:#	1	:/Users/neo1691/projects/trello-update	1	bash	:
+pane	dev	1	:trello	0	:#	2	:/Users/neo1691/projects/trello-update	0	bash	:
+pane	dev	2	:dotfiles	1	:*	1	:/Users/neo1691/projects/dotfiles	1	bash	:
+pane	dev	3	:contractUploader	0	:-	1	:/Users/neo1691/projects/fc/contract-uploader	1	bash	:
+window	dev	1	0	:#	a093,167x40,0,0{83x40,0,0,0,83x40,84,0,3}
+window	dev	2	1	:*	af83,167x40,0,0,6
+window	dev	3	0	:-	af84,167x40,0,0,7
+state	dev	

@@ -1,0 +1,7 @@
+pane	fc	1	:oauth	1	:*	1	:/Users/neo1691/projects/diy/flask-dance	0	bash	:
+pane	fc	1	:oauth	1	:*	2	:/Users/neo1691/projects/diy/flask-dance	1	bash	:
+pane	fc	2	:contracts	0	:#-	1	:/Users/neo1691/projects/fc/contract-uploader	1	Vim	:/usr/local/Cellar/macvim/8.0-142/MacVim.app/Contents/bin/../MacOS/Vim -g -v /Users/neo1691/projects/fc/platform-integrations/core/auth.py
+pane	fc	2	:contracts	0	:#-	2	:/Users/neo1691/projects/fc/contract-uploader	0	bash	:
+window	fc	1	1	:*	07d3,159x34,0,0{79x34,0,0,0,79x34,80,0,4}
+window	fc	2	0	:#-	07d6,159x34,0,0{79x34,0,0,1,79x34,80,0,2}
+state	fc	

@@ -1,0 +1,5 @@
+pane	dev	1	:python3.6	1	:*	1	:/Users/neo1691/projects/django-tut/mysite	1	python3.6	:/Users/neo1691/.virtualenvs/django/bin/python manage.py shell
+pane	dev	1	:python3.6	1	:*	2	:/Users/neo1691/projects/django-tut/mysite	0	Vim	:/usr/local/Cellar/macvim/8.0-136/MacVim.app/Contents/bin/../MacOS/Vim -g -v polls/models.py
+pane	dev	1	:python3.6	1	:*	3	:/Users/neo1691/projects/django-tut/mysite	0	python3.6	:/Users/neo1691/.virtualenvs/django/bin/python manage.py runserver
+window	dev	1	1	:*	2e2a,167x40,0,0{88x40,0,0[88x20,0,0,0,88x19,0,21,2],78x40,89,0,1}
+state	dev	
